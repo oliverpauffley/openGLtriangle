@@ -1,0 +1,3 @@
+/home/pi/code/gameproject1/CMakeFiles/rebuild_cache.dir
+/home/pi/code/gameproject1/CMakeFiles/gameproject1.dir
+/home/pi/code/gameproject1/CMakeFiles/edit_cache.dir
