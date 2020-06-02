@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/code/gameproject1/src/main.cpp" "/home/pi/code/gameproject1/CMakeFiles/gameproject1.dir/src/main.cpp.o"
+  "/Users/opauffley/code/gamedev/fundamentals/gameproject1/src/main.cpp" "/Users/opauffley/code/gamedev/fundamentals/gameproject1/CMakeFiles/gameproject1.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

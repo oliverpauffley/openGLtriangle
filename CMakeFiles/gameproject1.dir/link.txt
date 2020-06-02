@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/gameproject1.dir/src/main.cpp.o  -o gameproject1  -L/opt/vc/lib -Wl,-rpath,/opt/vc/lib -lGLESv2 -lEGL -lbcm_host 
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/gameproject1.dir/src/main.cpp.o  -o gameproject1   -L/opt/vc/lib  -Wl,-rpath,/opt/vc/lib -lGLESv2 -lEGL -llibbcm_host.so 

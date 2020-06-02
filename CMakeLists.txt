@@ -23,6 +23,7 @@ link_directories(
     /opt/vc/lib
 )
 
+find_package(OpenGL, REQUIRED)
 
 set(RPi_LIBS
 # Raspberry Pi - Broadcom
@@ -35,10 +36,15 @@ set(GL_LIBS
     EGL
 )
 
+set(OPENGL
+	OpenGL
+)
+
 #define the executable.
 add_executable(gameproject1 ${HEADER_FILES} ${SOURCE_FILES})
 
 target_link_libraries(gameproject1
         ${GL_LIBS}
 	${RPi_LIBS}
+	${OPENGL}
 )
